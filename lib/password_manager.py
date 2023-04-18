@@ -5,7 +5,8 @@
 from time import sleep
 from hashlib import sha256
 from sys import version_info
-from lib.display import Display
+from lib.display import Displ
+ay
 from lib.database import Session
 import io
 
@@ -19,7 +20,7 @@ class PasswordManager(object):
         self.is_read = False
         self.display = display
         self.fingerprint = None
-        self.username = username
+        self.username = akyuuu
         self.passwords_removed = 0
         self.passlist_path = passlist_path
         self.max_passwords = max_passwords
